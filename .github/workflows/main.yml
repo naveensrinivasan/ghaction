@@ -7,8 +7,9 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-      - name: 'Checkout Repository'
-        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Hell world action
         uses: naveensrinivasan/ghaction@v1
         with:
           who-to-greet: 'Mona the Octocat'
